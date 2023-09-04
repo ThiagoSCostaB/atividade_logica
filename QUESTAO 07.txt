@@ -1,0 +1,42 @@
+Algoritmo "Questao 07"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Thiago Santos Costa Bastos
+// Data atual  : 04/09/2023
+Var
+   nome : caracter
+   quantidade : inteiro
+   preco : real
+   total : real
+   totaldois : real
+   desconto: real
+Inicio
+
+   escreva("Digite o nome do produto: ")
+   leia(nome)
+
+   escreva("Digite a quantidade adquirida: ")
+   leia(quantidade)
+
+   escreva("Digite o preço unitário: ")
+   leia(preco)
+
+   total <- quantidade * preco
+   totaldois <- total - (total*(desconto/100))
+
+   se quantidade<=5 entao
+      desconto<-2
+   senao
+
+   se quantidade<=10 entao
+      desconto<-3
+   senao
+      desconto<-5
+  fimse
+  fimse
+
+  escreval("O valor total a pagar é: ", totaldois)
+
+
+Fimalgoritmo

@@ -1,0 +1,47 @@
+Algoritmo "Questao 02"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Thiago Santos
+// Data atual  : 04/09/2023
+Var
+// Seção de Declarações das variáveis
+  nome:caracter
+  sexo:caracter
+  tempoDeCasada:inteiro
+  estadoCivil:caracter
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+
+
+ escreva (" Digite seu nome: ")
+leia(nome)
+
+escreva ("M para Masculino e F para Feminino: ")
+ leia (Sexo)
+
+ escreva ("Digite seu Estado Civil: ")
+ leia (estadoCivil)
+
+
+ se (estadoCivil = "solteira") ou (estadoCivil= "Solteira")entao
+ escreva("sem tempo de casada")
+
+ fimse
+limpatela
+
+
+ escreval(" nome: ", nome)
+ escreval(" sexo:", sexo)
+ escreval (" Estado civil: ",estadoCivil)
+
+
+ se (estadoCivil = "Casada") ou (estadoCivil= "casada")entao
+ escreval(" Quanto tempo de casada? :" )
+ leia(tempoDeCasada)
+ fimse
+
+
+Fimalgoritmo

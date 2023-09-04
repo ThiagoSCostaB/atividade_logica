@@ -1,0 +1,36 @@
+Algoritmo "Questão 03"
+
+//Autor: Thiago Santos Costa Bastos
+//Data : 31/08/2023
+
+
+Var
+ A,B,C: inteiro
+ resultado : inteiro
+ Resultadodois : inteiro
+ ResultadoTres : inteiro
+
+Inicio
+
+ escreva("Digite o Valor A: ")
+ leia(A)
+
+ escreva("Digite o Valor B: ")
+ leia(B)
+
+ Resultado <- A+B
+ Resultadodois <- A*B
+ ResultadoTres <- C
+
+
+      //Calculando os Valores e mostrando o Resultado
+
+se(A = B) então
+escreval("Valor de C:",Resultado)
+senao
+escreval("Valor de C:",ResultadoDois)
+
+Fimse
+
+
+Fimalgoritmo

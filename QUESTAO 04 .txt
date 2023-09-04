@@ -1,0 +1,65 @@
+Algoritmo "Questao 04 "
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Thiago Santos Costa Bastos
+// Data atual  : 04/09/2023
+var
+   // Seção de Declarações das variáveis
+
+   quantidadeMaca:inteiro
+   quantidadeMorango:inteiro
+   totalMaca: real
+   totalMorango:real
+   totalParcial: real
+   desconto : real
+   precoFinal:real
+   somaQuantidade: real
+
+
+
+inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+
+   escreva ("digite a quantidade de maça:")
+   leia (quantidadeMaca)
+
+   escreva ("digite  quantidade de Morango:")
+   leia (quantidadeMorango)
+
+   se (quantidadeMaca <= 5gk) entao
+      totalMaca <- quantidadeMaca * 1.80
+      escreval ("o Valor da maça é 1.80")
+   senao
+      totalMaca <- quantidadeMaca * 1.50)
+      escreval ("o valor da maça é 1.50")
+
+   fimse
+
+   se (quantidadeMorango =5kg) entao
+      totalMorango <- quantidadeMorango * 2.50
+      escreval ("O valor do morango é 2.50")
+   senao
+
+      totalMorango <- quantidadeMorango 2.20
+      escreval ("O valor do morango é 2.20")
+
+   fimse
+
+
+   somaQuantidade <- quantidadeMaca + quantidadeMorango
+   totalParcial <- Totalmorango <- totalMaca
+
+   se ((somaQuantidade > 9) ou (totalParcial > 25 )) entao
+      desconto <- totalParcial * 0.1 //desconto de 10%
+      precoFinal <- totalParcial - desconto // valor parcial com 10% de desconto
+   senao
+      precoFinal <- totalParcial
+
+   fimse
+
+   escreval (" O valor final é :" ,precoFinal)
+
+
+
+ Fimalgoritmo

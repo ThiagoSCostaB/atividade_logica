@@ -1,0 +1,43 @@
+Algoritmo "Questao 08"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Thiago Santos Costa Bastos
+// Data atual  : 04/09/2023
+Var
+   Verde : real
+   Azul: real
+   Amarelo : real
+   Vermelho : real
+   Cor : caracter
+Inicio
+
+   Verde <- 10.00
+   Azul <-  20.00
+   Amarelo <- 30.00
+   Vermelho <- 40.00
+
+   escreva("Informe o CD que deseja pelas cores: Verde, Azul, Amarelo e Vermelho:")
+   leia(Cor)
+
+
+
+   se(Cor = "Verde") ou (Cor = "verde")então
+      escreval("O valor do CD Verde é: ", Verde :2:2)
+   fimse
+
+   se(Cor = "Azul") ou (Cor = "azul") então
+      escreval("O valor do CD Azul é: ", Azul :2:2)
+   fimse
+
+   se(Cor = "Amarelo") ou (Cor = "Amarelo") então
+      escreval("O valor do CD Amarelo é: ", Amarelo :2:2)
+   fimse
+
+   se(Cor = "Vermelho") ou (Cor = "vermelho") então
+      escreval("O valor do CD Vermelho é: ", Vermelho :2:2)
+   fimse
+
+
+
+Fimalgoritmo

@@ -1,0 +1,36 @@
+Algoritmo "Questao 06 "
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Thiago Santos Costa Bastos
+// Data atual  : 04/09/2023
+Var
+notaUm : real
+notaDois : real
+media : real
+
+Inicio
+escreva("Digite sua primeira nota: ")
+leia(notaUm)
+
+escreva("Digite sua segunda nota: ")
+leia(notaDois)
+
+media <- (notaUm + notaDois)/2
+
+escreval("Sua média é:", media)
+
+se(Media >= 6) então
+escreval(" Parabens, você foi aprovado!")
+fimse
+
+se (Media < 4) entao
+escreval("O aluno está reprovado.")
+fimse
+
+se(media = 4) entao
+escreva("O aluno esta em recuperaçao")
+fimse
+
+
+Fimalgoritmo
